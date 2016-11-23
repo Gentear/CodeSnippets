@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CLSmzq</string>
+	<string>CLViewAppear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -12,7 +12,22 @@
 	<string>//=================================================================
 //                           生命周期
 //=================================================================
-#pragma mark - 生命周期</string>
+#pragma mark - 生命周期
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+}
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+}
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+   
+}
+- (void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>84AFE70C-111E-4DE3-84F5-C86457D8369B</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -20,11 +35,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>生命周期</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>生命周期
-生命周期
-生命周期
-生命周期
-生命周期</string>
+	<string>CLViewAppear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
